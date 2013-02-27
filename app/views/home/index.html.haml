@@ -1,0 +1,18 @@
+%h1 paintr
+#selected
+%br
+%br
+.clear
+= text_field_tag 'color'
+= button_tag 'Add Color', :id => 'add_color'
+= button_tag 'Clear', :id => 'clear'
+= text_field_tag 'imageurl'
+= button_tag 'Insert Image', :id => 'insert_image'
+= button_tag 'Remove Image', :id => 'remove_image'
+= button_tag 'Apply Background Pic', :id => 'apply_pic'
+#colors
+.clear
+%img#thumbnail(src='')
+#canvas
+
+
